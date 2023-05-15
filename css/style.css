@@ -30,7 +30,12 @@ nav ul {
 
 }
 
-<!-- My UX Skills section coded using CSS flex-->
+/*<!-- My UX Skills section coded using CSS flex-->*/
+
+section >h1 {
+text-align: center;
+}
+
 
 .flexcontainer {
     display: grid;
@@ -130,15 +135,17 @@ nav ul {
     width: 100%;
   }
 
-  .mywork {
-    display: flex;
-  flex-wrap: wrap;
+  .workgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
   justify-content: center;
   align-items: center;
+  
   }
 
   .work1 {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -153,7 +160,7 @@ nav ul {
   }
 
   .work2 {
-    display: flex;
+    display: grid;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -167,7 +174,7 @@ nav ul {
   }
 
   .work3 {
-    display: flex;
+    display: grid;
   justify-content: center;
   align-items: center;
   flex-direction: row;
